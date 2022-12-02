@@ -1,2 +1,1 @@
-# monorepo-starter-essentials
-Monorepo Starter Essentials
+# Monorepo Starter Essentials
