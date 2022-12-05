@@ -20,7 +20,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint-config-custom": "*",
+    "@packages/eslint-config-custom": "*",
     "prettier": "latest",
     "turbo": "latest"
   },
