@@ -1,27 +1,46 @@
 {
   "name": "monorepo-starter-essentials",
-  "version": "0.0.0",
-  "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
+  "version": "1.0.0",
+  "description": "Monorepo starter bundled with essential configurations",
+  "keywords": [
+    "monorepo",
+    "turborepo",
+    "starter",
+    "essentials",
+    "mkit"
   ],
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
-    "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo run lint",
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "test": "turbo run test",
     "test:apps": "turbo run test --filter=./apps/*",
     "test:packages": "turbo run test --filter=./packages/*"
   },
+  "dependencies": {},
   "devDependencies": {
     "eslint-config-custom": "*",
     "prettier": "latest",
     "turbo": "latest"
   },
+  "private": true,
+  "packageManager": "yarn@1.22.19",
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
-  "packageManager": "yarn@1.22.19"
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "author": "MK IT Ltd. <hi@mkit.io>",
+  "homepage": "https://github.com/MK-IT/monorepo-starter-essentials",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MK-IT/monorepo-starter-essentials.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MK-IT/monorepo-starter-essentials/issues"
+  },
+  "license": "MIT"
 }
