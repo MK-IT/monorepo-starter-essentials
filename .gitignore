@@ -15,6 +15,7 @@ build
 .swc
 
 # misc
+TODO.md
 .DS_Store
 *.pem
 
