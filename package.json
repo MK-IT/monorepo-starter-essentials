@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "lint": "turbo run lint",
+    "lint": "cross-env TIMING=1 turbo run lint",
     "lint:fs": "ls-lint",
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
