@@ -12,7 +12,6 @@
   "scripts": {
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "cross-env TIMING=1 turbo run lint",
-    "lint:fs": "ls-lint",
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
     "test": "turbo run test",
@@ -24,7 +23,6 @@
     "@changesets/cli": "^2.25.2",
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
-    "@ls-lint/ls-lint": "^1.11.2",
     "@packages/eslint-config-custom": "*",
     "cross-env": "^7.0.3",
     "husky": "^8.0.2",
