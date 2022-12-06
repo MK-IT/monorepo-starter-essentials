@@ -27,7 +27,7 @@
     "@ls-lint/ls-lint": "^1.11.2",
     "@packages/eslint-config-custom": "*",
     "husky": "^8.0.2",
-    "prettier": "latest",
+    "prettier": "^2.8.0",
     "turbo": "latest"
   },
   "private": true,
