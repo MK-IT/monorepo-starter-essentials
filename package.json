@@ -26,6 +26,7 @@
     "@commitlint/config-conventional": "^17.3.0",
     "@ls-lint/ls-lint": "^1.11.2",
     "@packages/eslint-config-custom": "*",
+    "cross-env": "^7.0.3",
     "husky": "^8.0.2",
     "prettier": "^2.8.0",
     "turbo": "latest"
