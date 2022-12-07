@@ -11,17 +11,22 @@
   ],
   "scripts": {
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "lint": "turbo run lint",
+    "lint": "cross-env TIMING=1 turbo run lint",
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
     "test": "turbo run test",
     "test:apps": "turbo run test --filter=./apps/*",
-    "test:packages": "turbo run test --filter=./packages/*"
+    "test:packages": "turbo run test --filter=./packages/*",
+    "prepare": "husky install~"
   },
-  "dependencies": {},
   "devDependencies": {
+    "@changesets/cli": "^2.25.2",
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
     "@packages/eslint-config-custom": "*",
-    "prettier": "latest",
+    "cross-env": "^7.0.3",
+    "husky": "^8.0.2",
+    "prettier": "^2.8.0",
     "turbo": "latest"
   },
   "private": true,
