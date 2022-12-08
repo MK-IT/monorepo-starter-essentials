@@ -96,7 +96,7 @@ mkdir my-package
 yarn init -y
 ```
 
-**4. Create our entry point file **
+**4. Create our entry point file**
 
 ```
 touch index.tsx
@@ -125,7 +125,7 @@ export function Button() {
 }
 ```
 
-**7. Add our workspace package `tsconfig` as a dependency in our `package.json` **
+**7. Add our workspace package `tsconfig` as a dependency in our `package.json`**
 
 > Each workspace is referred to as it's "name" property inside `package.json`
 
@@ -153,7 +153,7 @@ cp ../ui/tsconfig.json ./tsconfig.json
 
 You can see inside the file that we are extending the file `react-library.json` that's coming from `tsconfig` package
 
-** 9. Now let's add the workspace package "eslint-config-custom" to our dependencies so we can see how Turborepo works**
+**9. Now let's add the workspace package "eslint-config-custom" to our dependencies so we can see how Turborepo works**
 
 ```json
 {
