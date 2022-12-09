@@ -9,7 +9,7 @@
 
 Monorepo project starter extended with tools to help you boost your development experience.
 
-> Help us improve by [submitting suggestions and bug reports](https://github.com/MK-IT/nextjs-starter-essentials/issues).\_
+> Help us improve by [submitting suggestions and bug reports](https://github.com/MK-IT/monorepo-starter-essentials/issues).\_
 
 ## ⚙ Turborepo
 
