@@ -60,7 +60,8 @@ yarn dev
 - [x] 🚀 **Production ready**
 - [x] 🚦 **Pre-commit hooks**
 - [x] 📂 **Clean folder structure**
-- [x] 🐛 **VSCode configuration**
+<!-- TODO -->
+<!-- - [x] 🐛 **VSCode configuration** --> 
 
 ### Extra features
 
