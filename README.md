@@ -8,7 +8,7 @@
   Monorepo Starter Essentials
 </h1>
 
-Monorepo project starter extended with tools to help you boost your development experience. Powered by [Turborepo](https://turbo.build/repo)
+Monorepo project starter extended with tools to help you boost your development experience. Powered by [Turborepo](https://turbo.build/repo).
 
 _Help us improve by [submitting suggestions and bug reports](https://github.com/MK-IT/monorepo-starter-essentials/issues)._
 
@@ -23,35 +23,50 @@ _Help us improve by [submitting suggestions and bug reports](https://github.com/
   * [Folder Structure](#folder-structure)
 * [Deploy](#deploy)
 
-## Getting Started
+## 🚀 Getting Started
 
-> We recommend that you get familiar with the [Turborepo Documentation](https://google.com) before using our project.
+_We recommend that you get familiar with the [Turborepo Documentation](https://google.com) before getting started._
 
-1. **Clone the project**
+1. **Create a new Monorepo app.**
 
-```
-git clone git@github.com:MK-IT/monorepo-starter-essentials.git my-monorepo
-```
+    Straightforward project scaffold using [degit](https://github.com/Rich-Harris/degit).
 
-2. **Go to the project directory**
+    ```
+    npx degit https://github.com/MK-IT/monorepo-starter-essentials hello-world
+    ```
 
-```
-cd my-monorepo
-```
+    Or alternatively, clone this repository.
 
-3. **Install Dependencies**
+    ```
+    git clone https://github.com/MK-IT/monorepo-starter-essentials hello-world
+    ```
+    
+    Navigate to your new monorepo and install its dependencies.
 
-```
-yarn
-```
+    ```
+    # replace `yarn` with `npm` if it works better for you
+    cd hello-world && yarn
+    ```
 
-4. **Run the projects**
+2.  **Configure.**
 
-```
-yarn dev
-```
+    Edit the default configuration of your new monorepo if necessary.
 
-5. **Now edit some of the projects and see what happens!**
+    * `package.json`
+    * `apps/**/package.json`
+    * `packages/**/package.json`
+    * `turbo.json`
+
+3.  **Develop.**
+
+    Start the monorepo apps.
+
+    ```
+    # parellel monorepo development mode
+    yarn dev
+    ```
+
+    _Note: You can change the contents of `apps/` and `packages/` in any way you like. Most pre-defined apps are for demo purposes only._
 
 ## Features
 
@@ -65,9 +80,9 @@ yarn dev
 <!-- TODO -->
 <!-- - [x] 🐛 **VSCode configuration** --> 
 
-### Extra features
+<!-- ### Extra features -->
 
-TODO
+<!-- TODO -->
 
 ## What's inside?
 
@@ -103,20 +118,27 @@ yarn workspace <workspace-name> <workspace-command>
 
 ```bash
  .
- ├── apps                   # workspaces
- │   ├── docs                 # next app
- │   └── web                  # next app
- ├── LICENSE
- ├── package.json
- ├── packages               # workspaces
- │   ├── eslint-config-custom # eslint configuration
- │   ├── tsconfig             # typescript configurations
+ ├── .changeset             # Changeset configuration
+ ├── .github                # GitHub configuration
+ ├── .husky                 # Husky configuration
+ ├── apps                   # Workspaces
+ │   ├── docs                 # NextJS app
+ │   └── web                  # NextJS app
+ ├── packages               # Workspaces
+ │   ├── eslint-config-custom # ESLint configuration
+ │   ├── tsconfig             # TypeScript configuration
  │   └── ui                   # component library
+ ├── .commitlintrc.js
+ ├── .editorconfig
+ ├── .eslintrc.js
+ ├── .gitignore
+ ├── LICENSE
  ├── README.md
+ ├── package.json
  ├── turbo.json               # Turborepo configuration
  └── yarn.lock
 ```
 
-## Deploy
+<!-- ## Deploy -->
 
-TODO
+<!-- TODO -->
