@@ -25,6 +25,8 @@ _Help us improve by [submitting suggestions and bug reports](https://github.com/
 
 ## Getting Started
 
+> We recommend that you get familiar with the [Turborepo Documentation](https://google.com) before using our project.
+
 1. **Clone the project**
 
 ```
