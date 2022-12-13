@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://nextjs.org">
-    <img alt="NextJS" src="https://user-images.githubusercontent.com/4060187/196936123-f6e1db90-784d-4174-b774-92502b718836.png" width="60" />
+  <a href="https://turbo.build/repo">
+    <img alt="Turborepo Logo" src="https://user-images.githubusercontent.com/4060187/196936123-f6e1db90-784d-4174-b774-92502b718836.png" width="60" />
   </a>
 </p>
 
@@ -25,7 +25,7 @@ _Help us improve by [submitting suggestions and bug reports](https://github.com/
 
 ## 🚀 Getting Started
 
-_We recommend that you get familiar with the [Turborepo Documentation](https://google.com) before getting started._
+_We recommend that you get familiar with the [Turborepo Documentation](https://turbo.build/repo/docs) before getting started._
 
 1. **Create a new Monorepo app.**
 
@@ -72,6 +72,7 @@ _We recommend that you get familiar with the [Turborepo Documentation](https://g
 
 ### Main features
 
+- [x] ⚙ **Turborepo Build System**
 - [x] ⚡️ **ESLint, Prettier, EditorConfig**
 - [x] 🤝 **Commit message linting**
 - [x] 🚀 **Production ready**
@@ -79,8 +80,7 @@ _We recommend that you get familiar with the [Turborepo Documentation](https://g
 - [x] 📂 **Clean folder structure**
 - [x] 🧗🏻‍♂️ **Built-in `semver` automation**
 - [x] 🍃 **Github releases automation**
-  <!-- TODO -->
-  <!-- - [x] 🐛 **VSCode configuration** -->
+- [x] 🐛 **VSCode configuration** 
 
 <!-- ### Extra features -->
 
@@ -142,6 +142,12 @@ yarn workspace <workspace-name> <workspace-command>
 └── yarn.lock
 ```
 
-<!-- ## Deploy -->
+## Deploy
 
-<!-- TODO -->
+[NextJS](https://nextjs.org/) apps can be easily deployed to custom Node.js servers, as Docker images, static HTML exports, and [Vercel](https://vercel.com/) (recommended).
+
+For automated Vercel deployment and more on the topic refer to [deployment guide](https://vercel.com/docs/concepts/monorepos).
+
+It's highly recommended to build and run your apps before deployment as a local preview.
+
+<!-- TODO: once we have clear release workflow, mention it here, same way as our other starters -->
