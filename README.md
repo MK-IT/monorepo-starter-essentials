@@ -74,13 +74,13 @@ _We recommend that you get familiar with the [Turborepo Documentation](https://t
 
 - [x] ⚙ **Turborepo Build System**
 - [x] ⚡️ **ESLint, Prettier, EditorConfig**
-- [x] 🤝 **Commit message linting**
-- [x] 🚀 **Production ready**
-- [x] 🚦 **Pre-commit hooks**
 - [x] 📂 **Clean folder structure**
+- [x] 🚦 **Pre-commit hooks**
+- [x] 🤝 **Commit message linting**
+- [x] 🐛 **VSCode configuration** 
+- [x] 🚀 **Production ready**
 - [x] 🧗🏻‍♂️ **Built-in `semver` automation**
 - [x] 🍃 **Github releases automation**
-- [x] 🐛 **VSCode configuration** 
 
 <!-- ### Extra features -->
 
