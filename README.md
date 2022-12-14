@@ -14,14 +14,14 @@ _Help us improve by [submitting suggestions and bug reports](https://github.com/
 
 ## Table of Contents
 
-* [Getting Started](#getting-started)
-* [Features](#features)
-  * [Main Features](#main-features)
-  * [Extra Features](#extra-features)
-* [What's inside](#whats-inside)
-  * [Available Scripts](#️available-scripts)
-  * [Folder Structure](#folder-structure)
-* [Deploy](#deploy)
+- [Getting Started](#getting-started)
+- [Features](#features)
+  - [Main Features](#main-features)
+  - [Extra Features](#extra-features)
+- [What's inside](#whats-inside)
+  - [Available Scripts](#️available-scripts)
+  - [Folder Structure](#folder-structure)
+- [Deploy](#deploy)
 
 ## 🚀 Getting Started
 
@@ -29,44 +29,44 @@ _We recommend that you get familiar with the [Turborepo Documentation](https://g
 
 1. **Create a new Monorepo app.**
 
-    Straightforward project scaffold using [degit](https://github.com/Rich-Harris/degit).
+   Straightforward project scaffold using [degit](https://github.com/Rich-Harris/degit).
 
-    ```
-    npx degit https://github.com/MK-IT/monorepo-starter-essentials hello-world
-    ```
+   ```
+   npx degit https://github.com/MK-IT/monorepo-starter-essentials hello-world
+   ```
 
-    Or alternatively, clone this repository.
+   Or alternatively, clone this repository.
 
-    ```
-    git clone https://github.com/MK-IT/monorepo-starter-essentials hello-world
-    ```
-    
-    Navigate to your new monorepo and install its dependencies.
+   ```
+   git clone https://github.com/MK-IT/monorepo-starter-essentials hello-world
+   ```
 
-    ```
-    # replace `yarn` with `npm` if it works better for you
-    cd hello-world && yarn
-    ```
+   Navigate to your new monorepo and install its dependencies.
 
-2.  **Configure.**
+   ```
+   # replace `yarn` with `npm` if it works better for you
+   cd hello-world && yarn
+   ```
 
-    Edit the default configuration of your new monorepo if necessary.
+2. **Configure.**
 
-    * `package.json`
-    * `apps/**/package.json`
-    * `packages/**/package.json`
-    * `turbo.json`
+   Edit the default configuration of your new monorepo if necessary.
 
-3.  **Develop.**
+   - `package.json`
+   - `apps/**/package.json`
+   - `packages/**/package.json`
+   - `turbo.json`
 
-    Start the monorepo apps.
+3. **Develop.**
 
-    ```
-    # parellel monorepo development mode
-    yarn dev
-    ```
+   Start the monorepo apps.
 
-    _Note: You can change the contents of `apps/` and `packages/` in any way you like. Most pre-defined apps are for demo purposes only._
+   ```
+   # parallel monorepo development mode
+   yarn dev
+   ```
+
+   _Note: You can change the contents of `apps/` and `packages/` in any way you like. Most pre-defined apps are for demo purposes only._
 
 ## Features
 
@@ -77,8 +77,10 @@ _We recommend that you get familiar with the [Turborepo Documentation](https://g
 - [x] 🚀 **Production ready**
 - [x] 🚦 **Pre-commit hooks**
 - [x] 📂 **Clean folder structure**
-<!-- TODO -->
-<!-- - [x] 🐛 **VSCode configuration** --> 
+- [x] 🧗🏻‍♂️ **Built-in `semver` automation**
+- [x] 🍃 **Github releases automation**
+  <!-- TODO -->
+  <!-- - [x] 🐛 **VSCode configuration** -->
 
 <!-- ### Extra features -->
 
@@ -117,25 +119,27 @@ yarn workspace <workspace-name> <workspace-command>
 ### Folder Structure
 
 ```bash
- .
- ├── .github                # GitHub configuration
- ├── .husky                 # Husky configuration
- ├── apps                   # Workspaces
- │   ├── docs                 # NextJS app
- │   └── web                  # NextJS app
- ├── packages               # Workspaces
- │   ├── eslint-config-custom # ESLint configuration
- │   ├── tsconfig             # TypeScript configuration
- │   └── ui                   # component library
- ├── .commitlintrc.js
- ├── .editorconfig
- ├── .eslintrc.js
- ├── .gitignore
- ├── LICENSE
- ├── README.md
- ├── package.json
- ├── turbo.json               # Turborepo configuration
- └── yarn.lock
+.
+├── .github                # GitHub configuration
+├── .husky                 # Husky configuration
+├── apps                   # Workspaces
+│   ├── docs                 # NextJS app
+│   └── web                  # NextJS app
+├── packages               # Workspaces
+│   ├── eslint-config-custom # ESLint configuration
+│   ├── tsconfig             # TypeScript configuration
+│   └── ui                   # Component library
+├── .commitlintrc.js
+├── .editorconfig
+├── .eslintrc.js
+├── .gitignore
+├── .release-please-manifest.json # Release-Please manifest file
+├── LICENSE
+├── README.md
+├── package.json
+├── release-please-config.json # Release-Please configuration file
+├── turbo.json               # Turborepo configuration
+└── yarn.lock
 ```
 
 <!-- ## Deploy -->
