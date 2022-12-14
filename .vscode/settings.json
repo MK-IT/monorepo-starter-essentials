@@ -3,18 +3,9 @@
   // Code spellcheck to ignore project-specific words
   "cSpell.words": [
     "commitlint",
-    "commitlintrc",
-    "hygen",
-    "lastmod",
     "mkit",
-    "multiselect",
     "nextjs",
-    "postbuild",
-    "TMPLS",
-    "unoptimized",
-    "Vercel",
-    "versionrc",
-    "viewports"
+    "turborepo"
   ],
 
   // Fix all auto-fixable issues reported by ESLint
