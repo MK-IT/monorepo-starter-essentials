@@ -1,0 +1,7 @@
+{
+  "apps/docs": "0.0.0",
+  "apps/web": "0.0.0",
+  "packages/ui": "0.0.0",
+  "packages/tsconfig": "0.0.0",
+  "packages/eslint-config-custom": "0.0.0"
+}
