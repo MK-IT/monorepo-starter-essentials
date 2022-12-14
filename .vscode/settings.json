@@ -1,0 +1,24 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  // Code spellcheck to ignore project-specific words
+  "cSpell.words": [
+    "commitlint",
+    "mkit",
+    "nextjs",
+    "turborepo"
+  ],
+
+  // Fix all auto-fixable issues reported by ESLint
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // Enable running npm scripts from the Explorer menu
+  "npm.enableRunFromFolder": true,
+
+  // Enable reference hints via code lens
+  "typescript.referencesCodeLens.enabled": true,
+
+  // Enable VSC built-in bracket colorization instead of using an extension
+  "editor.bracketPairColorization.enabled": true
+}

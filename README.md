@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://nextjs.org">
-    <img alt="NextJS" src="https://user-images.githubusercontent.com/4060187/196936123-f6e1db90-784d-4174-b774-92502b718836.png" width="60" />
+  <a href="https://turbo.build/repo">
+    <img alt="Turborepo Logo" src="https://user-images.githubusercontent.com/4060187/196936123-f6e1db90-784d-4174-b774-92502b718836.png" width="60" />
   </a>
 </p>
 
@@ -25,7 +25,7 @@ _Help us improve by [submitting suggestions and bug reports](https://github.com/
 
 ## 🚀 Getting Started
 
-_We recommend that you get familiar with the [Turborepo Documentation](https://google.com) before getting started._
+_We recommend that you get familiar with the [Turborepo Documentation](https://turbo.build/repo/docs) before getting started._
 
 1. **Create a new Monorepo app.**
 
@@ -72,15 +72,15 @@ _We recommend that you get familiar with the [Turborepo Documentation](https://g
 
 ### Main features
 
+- [x] ⚙ **Turborepo Build System**
 - [x] ⚡️ **ESLint, Prettier, EditorConfig**
-- [x] 🤝 **Commit message linting**
-- [x] 🚀 **Production ready**
-- [x] 🚦 **Pre-commit hooks**
 - [x] 📂 **Clean folder structure**
+- [x] 🚦 **Pre-commit hooks**
+- [x] 🤝 **Commit message linting**
+- [x] 🐛 **VSCode configuration**
+- [x] 🚀 **Production ready**
 - [x] 🧗🏻‍♂️ **Built-in `semver` automation**
 - [x] 🍃 **Github releases automation**
-  <!-- TODO -->
-  <!-- - [x] 🐛 **VSCode configuration** -->
 
 <!-- ### Extra features -->
 
