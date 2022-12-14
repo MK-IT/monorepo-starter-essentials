@@ -82,9 +82,26 @@ _We recommend that you get familiar with the [Turborepo Documentation](https://t
 - [x] 🧗🏻‍♂️ **Built-in `semver` automation**
 - [x] 🍃 **Github releases automation**
 
-<!-- ### Extra features -->
+### 🤝 Commit message linting
 
-<!-- TODO -->
+Keep your commit messages human- and robot-readable using a shared convention, i.e. [Commitlint](https://commitlint.js.org/#/).
+
+[Husky's](https://github.com/typicode/husky) Git hooks make sure that your commit messages follow the convention.
+
+_You can use [Commitlint's CLI](https://commitlint.js.org/#/guides-use-prompt?id=guide-use-prompt) for fast authoring of your commit messages._
+
+### 🧗🏻‍♂️ Built-in `semver` automation
+
+The [release-please](https://github.com/googleapis/release-please) package helps you generate changelogs, tags and automatically updates package versions by following the [semver](https://semver.org) convention.
+
+When there are new changes merged to the default branch, the `release-please` GitHub action automatically creates a release PR containing updated package versions and changelogs. The PR gets updated automatically as more changes are merged. When you are ready to release, just merge the PR.
+
+If you want to version track a package, you must define it in `release-please-config.json`.
+On the next release, the newly defined packages will be automatically added to `release-please-manifest.json`.
+
+### 🍃 Github releases automation
+
+When you merge [release-please](https://github.com/googleapis/release-please)'s auto-generated PR, the GitHub action automatically creates tags and releases for each package.
 
 ## What's inside?
 
