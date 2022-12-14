@@ -20,13 +20,13 @@
     "prepare": "husky install~"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.25.2",
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
     "@packages/eslint-config-custom": "*",
     "cross-env": "^7.0.3",
     "husky": "^8.0.2",
     "prettier": "^2.8.0",
+    "release-please": "^15.0.0",
     "turbo": "latest"
   },
   "private": true,
