@@ -118,7 +118,6 @@ yarn workspace <workspace-name> <workspace-command>
 
 ```bash
  .
- ├── .changeset             # Changeset configuration
  ├── .github                # GitHub configuration
  ├── .husky                 # Husky configuration
  ├── apps                   # Workspaces
