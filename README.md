@@ -77,7 +77,7 @@ _We recommend that you get familiar with the [Turborepo Documentation](https://t
 - [x] 📂 **Clean folder structure**
 - [x] 🚦 **Pre-commit hooks**
 - [x] 🤝 **Commit message linting**
-- [x] 🐛 **VSCode configuration** 
+- [x] 🐛 **VSCode configuration**
 - [x] 🚀 **Production ready**
 - [x] 🧗🏻‍♂️ **Built-in `semver` automation**
 - [x] 🍃 **Github releases automation**
@@ -142,12 +142,6 @@ yarn workspace <workspace-name> <workspace-command>
 └── yarn.lock
 ```
 
-## Deploy
+<!-- ## Deploy -->
 
-[NextJS](https://nextjs.org/) apps can be easily deployed to custom Node.js servers, as Docker images, static HTML exports, and [Vercel](https://vercel.com/) (recommended).
-
-For automated Vercel deployment and more on the topic refer to [deployment guide](https://vercel.com/docs/concepts/monorepos).
-
-It's highly recommended to build and run your apps before deployment as a local preview.
-
-<!-- TODO: once we have clear release workflow, mention it here, same way as our other starters -->
+<!-- TODO -->
