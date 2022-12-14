@@ -94,7 +94,7 @@ _You can use [Commitlint's CLI](https://commitlint.js.org/#/guides-use-prompt?id
 
 The [release-please](https://github.com/googleapis/release-please) package helps you generate changelogs, tags and automatically updates package versions by following the [semver](https://semver.org) convention.
 
-When there's new changes merged to the default branch, the `release-please` GitHub action automatically creates a release PR containing updated package versions and changelogs. The PR gets updated automatically as more changes are merged. When you are ready to release, just merge the PR.
+When there are new changes merged to the default branch, the `release-please` GitHub action automatically creates a release PR containing updated package versions and changelogs. The PR gets updated automatically as more changes are merged. When you are ready to release, just merge the PR.
 
 If you want to version track a package, you must define it in `release-please-config.json`.
 On the next release, the newly defined packages will be automatically added to `release-please-manifest.json`.
