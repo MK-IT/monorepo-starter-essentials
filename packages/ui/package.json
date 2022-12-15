@@ -1,6 +1,6 @@
 {
   "name": "@packages/ui",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "./index.tsx",
   "types": "./index.tsx",
   "license": "MIT",
@@ -8,8 +8,8 @@
     "lint": "eslint \"**/*.ts*\""
   },
   "devDependencies": {
-    "@packages/eslint-config-custom": "*",
-    "@packages/tsconfig": "*",
+    "@packages/eslint-config-custom": "1.0.0",
+    "@packages/tsconfig": "1.0.0",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "eslint": "^8.29.0",
