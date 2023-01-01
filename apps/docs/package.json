@@ -16,7 +16,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
+    "@babel/core": "^7.20.7",
     "@packages/eslint-config-custom": "*",
     "@packages/tsconfig": "*",
     "@testing-library/jest-dom": "^5.16.5",
