@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
-    "@commitlint/config-conventional": "^17.3.0",
+    "@commitlint/config-conventional": "^17.4.4",
     "@packages/eslint-config-custom": "*",
     "cross-env": "^7.0.3",
     "husky": "^8.0.2",
